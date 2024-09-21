@@ -80,7 +80,7 @@ const Terminal: React.FC = () => {
     while (id--) {
       clearInterval(id);
     }
-    setText1("ssh geust@tijan.dev");
+    setText1("ssh geust@Sohail.dev");
     setText3("Access Granted!");
   };
 
@@ -98,15 +98,15 @@ const Terminal: React.FC = () => {
             while (id--) {
               clearInterval(id);
             }
-            setText1("ssh geust@tijan.dev");
-            setText2("geust@tijan.dev's password:");
+            setText1("ssh geust@Sohail.dev");
+            setText2("geust@Sohail.dev's password:");
             setText3("Access Granted!");
           }
           const CommandArea = document.getElementById("command") as HTMLInputElement;
           if (CommandArea) {
             previousCommand = CommandArea.value;
             if(previousCommand.length>0) {
-              setprevusedCommand(prevArray => [...prevArray, "guest@tijan.dev:~$ " + previousCommand]);
+              setprevusedCommand(prevArray => [...prevArray, "guest@Sohail.dev:~$ " + previousCommand]);
               /*if (CommandArea.value === "github") {
                 window.open("https://github.com/0xTijan", "_blank");
               }
@@ -128,10 +128,10 @@ const Terminal: React.FC = () => {
         }
       });
 
-      Typewriter({ text: "ssh geust@tijan.dev", delay: 100, func: setText1 });
+      Typewriter({ text: "ssh geust@Sohail.dev", delay: 100, func: setText1 });
 
       setTimeout(() => {
-        setText2("geust@tijan.dev's password:▮");
+        setText2("geust@Sohail.dev's password:▮");
       }, 3000);
 
       setTimeout(() => {
@@ -139,11 +139,11 @@ const Terminal: React.FC = () => {
       }, 4300);
 
       setTimeout(() => {
-        setText3("Connecting to geust@tijan.dev...");
+        setText3("Connecting to geust@Sohail.dev...");
       }, 4300);
 
       setTimeout(() => {
-        setText2("geust@tijan.dev's password:");
+        setText2("geust@Sohail.dev's password:");
         setText3("> Access granted.");
       }, 7300);
     }
@@ -215,7 +215,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Email: <a href="mailto:tijan@tijan.dev" rel="noreferrer" target="_blank">tijan@tijan.dev ↗</a></li>
+                        <li key={index} className="mcq-option">My Email: <a href="mailto:tijan@Sohail.dev" rel="noreferrer" target="_blank">tijan@Sohail.dev ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -250,7 +250,7 @@ const Terminal: React.FC = () => {
                       <div className="mcq-wrapper"><br></br>
                         <ul id="mcq" className="mcq">
                           <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTijan" target='_blank' rel="noreferrer">My Github: @0xTijan ↗</a></li>
-                          <li className="mcq-option" tabIndex={1}><a href="mailto:tijan@tijan.dev" target='_blank' rel="noreferrer">My Email: tijan@tijan.dev↗</a></li>
+                          <li className="mcq-option" tabIndex={1}><a href="mailto:tijan@Sohail.dev" target='_blank' rel="noreferrer">My Email: tijan@Sohail.dev↗</a></li>
                           <li className="mcq-option" tabIndex={2}><a href="https://twitter.com/0xTijan" target='_blank' rel="noreferrer">My Twitter: @0xTijan ↗</a></li>
                           <li className="mcq-option" tabIndex={3}><a href="https://t.me/TijanWeb3" target='_blank' rel="noreferrer">My Telegram: @TijanWeb3 ↗</a></li>
                           <li className="mcq-option" tabIndex={4}><a href="https://discord.com/users/775249998379614238" target='_blank' rel="noreferrer">My Discord: tijan.dev ↗</a></li>
@@ -499,7 +499,7 @@ const Terminal: React.FC = () => {
                     <div>
                       <li className="userPrefix" key={index}>{item}</li>
                       <div className='aboutme'><br></br>
-                      Hi, nice to meet you. I'm Tijan, blockchain and web developer from Slovenia.
+                      Hi, nice to meet you. I'm Sohail Ahmed, blockchain and web developer from Pakistan.
                         <br></br><br></br>
                       I started programming when I was 13 and have been programming since then. I got into crypto in 2020 through Ivan On Tech academy. I am passionate about the blockchain industry and believe it has the potential to change the word for better. After learning how blockchain and crypto works I have learned the tech and started participating in hackathons. I have won awards at 3 hackathons in less than a year. I have also contributed to an open source web3 UI library (Web3UIKit). Now I am mostly working on my personal projects.
                         <br></br><br></br>
@@ -510,13 +510,13 @@ const Terminal: React.FC = () => {
                   return (
                     <div>
                       <li className="userPrefix" key={index}>{item}</li>
-                    bash: {item.replace("guest@tijan.dev:~$", "")}: command not found<br /><br />
+                    bash: {item.replace("guest@Sohail.dev:~$", "")}: command not found<br /><br />
                     </div>
                   );
                 }
               })}
             </ul>
-            {Text3.includes("Access") ? <span className='commands'><span className='userPrefix'>guest@tijan.dev:~$</span> <input type="text" id="command" name="command" autoFocus></input></span> : ""}
+            {Text3.includes("Access") ? <span className='commands'><span className='userPrefix'>guest@Sohail.dev:~$</span> <input type="text" id="command" name="command" autoFocus></input></span> : ""}
           </div>
         ):(
           <Button size='lg' onClick={() => setStart(true)} colorScheme="blue" variant='solid' className="terminal-btn">

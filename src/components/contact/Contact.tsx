@@ -20,39 +20,48 @@ export type Contact = {
 export const contacts: Contact[] = [
   {
     name: "EMAIL:",
-    info: "tijan@tijan.dev",
+    info: "Sohail Ahmed",
     icon: <MdOutlineEmail className="contact-icon" />,
-    url: "mailto:tijan@tijan.dev",
+    url: "sohailahmedlaghari21@gmail.com",
   },
+
+
+
+  // sohail twiter here
   {
     name: "TWITTER:",
     info: "@0xTijan",
     icon: <AiFillTwitterCircle className="contact-icon" />,
     url: "https://twitter.com/0xTijan",
   },
+
+
+
+
+  // Sohail telegram here
   {
     name: "TELEGRAM:",
-    info: "@TijanWeb3",
+    info: "Sohail Ahmed",
     icon: <BsTelegram className="contact-icon" />,
     url: "https://t.me/TijanWeb3",
   },
   {
     name: "DISCORD:",
-    info: "Tijan#6804",
+    info: "Sohailahmed12345",
     icon: <FaDiscord className="contact-icon" />,
-    url: "https://discord.com/users/775249998379614238",
+    url: "https://discord.gg/2uhc7USEVm",
   },
   {
     name: "GitHub:",
-    info: "@0xTijan",
+    info: "Sohail Ahmed",
     icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/0xTijan",
+    url: "https://github.com/12SohailBlockchain",
   },
   {
     name: "LOCATION & ZONE:",
-    info: "Slovenia, UTC+1",
+    info: "Pakistan Standard Time (PST)",
     icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/slovenia",
+    url: "https://www.timeanddate.com/worldclock/pakistan/islamabad",
   },
 ];
 
@@ -84,7 +93,7 @@ const Contact = () => {
       </div>
 
       <div className="button-container">
-        <a href="mailto:tijan@tijan.dev">
+        <a href="sohailahmedlaghari21@gmail.com">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
             {text[language].contactButton}
           </Button>
