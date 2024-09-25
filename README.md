@@ -6,7 +6,7 @@ Please leave a ⭐ if you like it.
 ![Portfolio Preview](./portfolio-preview.png)
 
 ## Try It Out
-My portfolio website is live [here](https://tijan.dev/).
+My portfolio website is live [here]().
 
 If you find any **errors** ⛔, please report them to [errors@tijan.dev](mailto:errors@tijan.dev) thanks 🙏.
 
@@ -16,7 +16,7 @@ For this project I used:
 - [TypeScript](https://www.typescriptlang.org/) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## About Me
-Hi! 👋 I'm Tijan, passionate **blockchain developer** from Slovenia. Take a look at my [portfolio](https://tijan.dev).
+Hi! 👋 I'm Sohail Ahmed, passionate **blockchain developer** from Slovenia. Take a look at my [portfolio](https://tijan.dev).
 
 You can get in touch with me through my [website](https://tijan.dev) or contact me on [twitter](https://twitter.com/0xTijan).
 
